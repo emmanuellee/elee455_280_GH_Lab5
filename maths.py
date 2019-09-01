@@ -1,3 +1,5 @@
+import math
+
 def add(first, second, optional = None):
     if optional == None:
         return first + second
@@ -41,5 +43,5 @@ def convert_base(num, n):
     return new_num_string
 
 def factorial(number):
-    pass
+    return math.factorial(number)
 
